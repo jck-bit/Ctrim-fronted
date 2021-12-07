@@ -1,3 +1,38 @@
 .navbaritems{
+    background-color: rgb(100, 199, 166);
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar-logo{
+    color: #fff;
+    justify-self: start;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap:10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content:end;
+    margin-right: 2rem;
+}
+
+.nav-links{
+ display: grid;
+ text-decoration: none;
+ padding:0.5rem 1rem;
+}
+
+.nav-links:hover{
+    background-color:#54ce3c;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
 }

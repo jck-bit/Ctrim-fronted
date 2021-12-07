@@ -6,9 +6,9 @@ import './Navbar.css'
 const Navbar = () => {
     return (
        <nav className="navbaritems">
-           <h1 className="navbar-logo">Ctrim-api</h1>
+           <h1 className="navbar-logo">Ctrim-Api</h1>
            <div className="menu-icon"></div>
-           <ul>
+           <ul className ="nav-menu">
               {Menuitems.map(( item,index)=>{
                   return (
                   <li key ={index}>
