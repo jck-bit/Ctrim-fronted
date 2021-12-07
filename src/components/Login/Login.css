@@ -1,0 +1,16 @@
+.input {
+    padding:10px;
+    width:380px;
+    max-width:90px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.btn{
+    margin-top: 1rem;
+    padding: 10px 40px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
