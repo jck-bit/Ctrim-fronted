@@ -15,12 +15,12 @@
         cName:'nav-links'
     },
     {
-        title:'Contact Us',
+        title:'Customer',
         url:'a',
         cName:'nav-links'
     },
     {
-        title:'Home',
+        title:'Contact us',
         url:'a',
         cName:'nav-links'
     },

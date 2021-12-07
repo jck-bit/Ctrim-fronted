@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from '../Button'
 import { Menuitems } from './Menuitems'
 import './Navbar.css'
 
@@ -7,7 +8,6 @@ const Navbar = () => {
     return (
        <nav className="navbaritems">
            <h1 className="navbar-logo">Ctrim-Api</h1>
-           <div className="menu-icon"></div>
            <ul className ="nav-menu">
               {Menuitems.map(( item,index)=>{
                   return (
@@ -19,6 +19,7 @@ const Navbar = () => {
               )})}
 
            </ul>
+           <Button>Sign Up</Button>
        </nav>
     )
 }
