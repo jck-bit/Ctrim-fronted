@@ -1,22 +1,14 @@
-import { Container } from 'react-bootstrap';
-import Signup from './components/Login/Signup';
-import { AuthProvider } from './context/AuthContext';
+import './index.css'
+import Books from './components/Login/Books';
+import Practise from './components/Login/Practise';
+
 
 function App() {
   return (
-    <AuthProvider>
-          <Container 
-     className="d-flex align-items-center justify-content-center"
-    style={{minHeight:"100vh"}}
-    >
-      <div className ="w 100" style={{maxWidth:"700px", minwidth:"700px"}}>
-            <Signup/>
-      </div>
-    </Container>
-    </AuthProvider>
-
-
-    
+     <div className='App'>
+       <Practise/>
+       <Books/>
+     </div>  
   );
 }
 
